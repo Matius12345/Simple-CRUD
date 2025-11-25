@@ -11,7 +11,7 @@ if (!$conn) {
     exit;
 }
 
-// Lanjutkan dengan 
+// Lanjutkan dengan aplikasi lain
 // test 
 require_once 'models/UserModel.php';
 require_once 'controllers/CrudController.php';
