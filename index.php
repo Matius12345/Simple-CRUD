@@ -11,7 +11,7 @@ if (!$conn) {
     exit;
 }
 
-// Lanjutkan dengan aplikasi normal
+// Lanjutkan Dengan aplikasi Lainnya
 require_once 'models/UserModel.php';
 require_once 'controllers/CrudController.php';
 
@@ -32,5 +32,9 @@ switch($action) {
     default:
         $controller->list();
         break;
+
+
+
+        
 }
 ?>
